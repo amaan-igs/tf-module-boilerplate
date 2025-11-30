@@ -10,8 +10,9 @@ This repository provides a boilerplate structure for developing reusable Terrafo
 
 ```text
 ├── .github/
-│   └── workflows/
-│       └── main.yml       # CI/CD pipeline configuration
+│   ├── workflows/
+│   │   └── main.yml       # CI/CD pipeline configuration
+│   └── contributing.md    # Contribution guidelines
 ├── .gitignore             # Git ignore patterns for Terraform
 ├── LICENSE                # Module license
 ├── main.tf                # Primary module configuration
@@ -44,6 +45,15 @@ Update the following sections when developing your module:
 
 ## Contributing
 
+We welcome contributions! Please see our [Contributing Guidelines](.github/contributing.md) for detailed information on:
+
+- Development setup and workflow
+- Pull request process
+- Coding standards and testing requirements
+- Semantic commit message format
+
+Quick start:
+
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
@@ -52,4 +62,4 @@ Update the following sections when developing your module:
 
 ## License
 
-This module is licensed under the terms specified in the LICENSE file.
+This module is licensed under the Apache 2.0 License. See [LICENSE](./LICENSE) file for details.
